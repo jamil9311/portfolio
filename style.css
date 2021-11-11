@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 .profile {
     width: 175px;
@@ -31,21 +32,20 @@ body {
     display: table-cell;.
     position: relative;
     vertical-align: middle;
+    
 }
 h1 {
     font-size: 40px;
-    line-height: 1.2;
     font-family: inherit;
     font-weight: 300;
 }
 #name {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.2;
-    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
 }
 h2 {
      font-size: 40px;
-    line-height: 1.2;
     font-family: monospace;
     font-weight: 300;
 }
@@ -90,4 +90,14 @@ p {
 }
 .links:hover {
     background-color: crimson;
+}
+a {
+    text-decoration: none;
+}
+.article :hover{
+    color: antiquewhite;
+}
+html {
+    scroll-behavior: smooth;
+    
 }
